@@ -1,0 +1,16 @@
+# Dependencies & build output
+node_modules/
+dist/
+**/node_modules/
+**/dist/
+
+# PDFs (e.g. the copyrighted handbook) are never committed
+*.pdf
+
+# Editor / OS cruft
+.vscode/
+.idea/
+*.devlog.txt
+.DS_Store
+Thumbs.db
+desktop.ini
